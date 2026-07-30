@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>AmberHeart</title>       
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="container">
+        <div id="console">
+            <div style="background-color: #272727; height: 100%; display: grid; align-content: center; border-radius: 30px; margin: 10px;">
+                <h1 style="margin-left: 20px;">AmberOS alpha 0.1</h1>
+            </div>
+            
+            <div id="console-text">
+                <h1 id="console-text-header" style="margin: 0%; margin-bottom: 10px;">~/home</h1>
+                <p style="margin: 0%; margin-left: 25px;"></p>
+            </div>
+        </div>
+
+        <div id="navigation">
+            <button onclick="home()">cd ~/home</button>
+            <button onclick="aboutMe()">cd ~/about_me</button>
+            <button onclick="myMusic()">cd ~/my_music</button>
+            <button onclick="contact()">cd ~/contact</button>
+            <button onclick="achievements()">cd ~/achievements</button>
+            <button onclick="politicalViews()">cd ~/political_views</button>
+        </div>
+
+        <script src="code.js"></script>
+    </body>
+</html>                      
