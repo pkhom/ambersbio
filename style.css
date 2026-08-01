@@ -55,9 +55,15 @@ button {
 }
 
 #console-text-content {
+    display: grid;
     margin: 0%;
     margin-left: 25px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+#console-text-content-element {
+    margin: 0%;
+    color: inherit;
 }
 
 #navigation {

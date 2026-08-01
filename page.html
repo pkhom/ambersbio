@@ -9,12 +9,14 @@
     <body id="container">
         <div id="console">
             <div style="background-color: #272727; height: 100%; display: grid; align-content: center; border-radius: 30px; margin: 10px;">
-                <h1 style="margin-left: 20px;">AmberOS alpha 0.1</h1>
+                <h1 style="margin-left: 20px;">AmberOS A</h1>
             </div>
             
             <div id="console-text">
                 <h1 id="console-text-header">~/home</h1>
-                <p id="console-text-content">></p>
+                <div id="console-text-content">
+                    <p id="console-text-content-element">></p>
+                </div>
             </div>
         </div>
 
@@ -22,6 +24,7 @@
             <button onclick="home()">cd ~/home</button>
             <button onclick="aboutMe()">cd ~/about_me</button>
             <button onclick="myMusic()">cd ~/my_music</button>
+            <button onclick="projects()">cd ~/projects</button>
             <button onclick="contact()">cd ~/contact</button>
             <button onclick="achievements()">cd ~/achievements</button>
             <button onclick="politicalViews()">cd ~/political_views</button>
