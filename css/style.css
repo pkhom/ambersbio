@@ -1,23 +1,14 @@
 /*  Background: "#0A0505"
     Text: "#DDCCBB"
-    MutedText: "#BDAEA0"
+    MutedText: "#BDAEA0" ? #A38F87 <- newer version
     Focused: "#FF7500"
     Active: "#a05500"
     Inactive: "#433333"
 */
-/*:root {
-	--background: #0A0505;
-	--foreground: #DDCCBB;
-	--card: #191414;
-	--card-foreground: #DDCCBB;
-	--muted-foreground: #BDAEA0;
+/*
+	--panel: #191414;
 	--border: #100B0B;
-	--primary: #FF7500;
-	--primary-foreground: #000000;
 	--secondary: #FFC085;
-	--secondary-foreground: #000000;
-	--accent: #FF7500;
-	--accent-foreground: #000000;
 }
 */
 
