@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
+    <link id="css" rel="stylesheet" href="css/desktop.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-
-
-    <div id="content" style="background-color: #191414;">
-        <div style="margin: 10px;">
-            <img src="sources/images/pfp.png" style="width: 10%; height: 10%;">
-        </div>
-    </div>
-    <div id="navigation" style="background-color: #191414;">
+    <div id="navigation">
         <button onclick="activateButton(this)">General Information</button>
         <button onclick="activateButton(this)">Hobbies</button>
         <button onclick="activateButton(this)">Interests</button>
         <button onclick="activateButton(this)">Important Information</button>
         <button onclick="activateButton(this)">Contacts</button>
+    </div>
+
+    <div id="content" style="background-color: #191414;">
+        <div style="margin: 10px;">
+            <img src="sources/images/pfp.png" style="width: 10%; height: 10%;">
+        </div>
     </div>
 
     <script src="js/script.js"></script>
