@@ -1,0 +1,76 @@
+/*  Background: "#0A0505"
+    Panel: #191414
+    Text: "#DDCCBB"
+    MutedText: "#BDAEA0" ? #A38F87 <- newer version
+    Focused: "#FF7500"
+    Active: "#a05500"
+    Inactive: "#433333"
+*/
+/*
+	--border: #100B0B;
+	--secondary: #FFC085;
+}
+*/
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("../sources/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+* {
+    font-family: "JetBrains Mono";
+    padding: 0%;
+    margin: 0%;
+    border-radius: 15px;
+}
+
+body {
+    overflow: hidden;
+    position:fixed;
+
+    background-color: #0A0505;
+    color: #DDCCBB;
+
+    display: grid;
+    grid-template-columns: 92vw;
+    grid-template-rows: 83vh 9vh;
+
+    grid-row-gap: 4vw;
+
+    place-items: center;
+
+    padding: 4vw;
+}
+
+#content {
+    grid-row: 1;
+
+    width: 100%;
+    height: 100%;
+}
+
+#navigation {
+    grid-row: 2;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+
+    width: 100%;
+    height: 100%;
+}
+
+select {
+    font-size: 25px;
+
+    color: #DDCCBB;
+    background-color: #191414;
+
+
+
+    text-align: center;
+
+    border: 0;
+
+    margin: 10px;
+}
